@@ -1,0 +1,348 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+}
+
+.container{
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.ph{
+    width: 296px;
+    height: 409.73px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.mar{
+    margin-right: 20px;
+}
+
+/* peperoni */
+
+.peperoniphoto{
+    width: 295px;
+}
+
+.peperonitext{
+    display: flex;
+    flex-direction: column;
+}
+
+.peperonitext{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.pizzap{
+    margin-top: 10px;
+    color: #6E798C;
+}
+
+.pizzapbottom{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #6E798C;
+}
+
+.price{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.p23{
+    color:#081F32;
+}
+
+.p29{
+    color: #F8593B;
+    text-decoration: line-through;
+}
+
+.pepbut{
+    width: 70px;
+    height: 40px;
+    background-color: #2ECC71;
+    color: white;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+
+.peperoniphoto{
+    position: relative;
+}
+
+
+.infologopos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    position: absolute;
+    top: 110px;
+    left: 440px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fire{
+    width: 20px;
+}
+
+.wheat{
+    width: 20px;
+}
+
+.fire1{
+    background-color: red;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wheat1{
+    background-color: yellow;
+    pad: 2px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* tortelini */
+
+.tortphoto{
+    width: 295px;
+}
+
+.torttext{
+    display: flex;
+    flex-direction: column;
+}
+
+.torttext{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.tortp{
+    margin-top: 10px;
+    color: #6E798C;
+}
+
+.tortpbottom{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #6E798C;
+}
+
+.price1{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.p17{
+    color:#081F32;
+}
+
+.p22{
+    color: #F8593B;
+    text-decoration: line-through;
+}
+
+.tortbut1{
+    width: 70px;
+    height: 40px;
+    background-color: #2ECC71;
+    color: white;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+
+.tortphoto{
+    position: relative;
+}
+
+
+.infologopos1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    position: absolute;
+    top: 110px;
+    left: 750px;
+}
+
+.logos1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fire2{
+    width: 20px;
+}
+
+.wheat2{
+    width: 20px;
+}
+
+.leaf2{
+    width: 20px;
+}
+
+.fire3{
+    background-color: red;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wheat3{
+    background-color: yellow;
+    pad: 2px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leaf3{
+    background-color: green;
+    pad: 2px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* strawberry */
+
+.Strawberryphoto{
+    width: 295px;
+}
+
+.Strawberrytext{
+    display: flex;
+    flex-direction: column;
+}
+
+.Strawberrytext{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.Strawberryp{
+    margin-top: 10px;
+    color: #6E798C;
+}
+
+.Strawberrypbottom{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #6E798C;
+}
+
+.price1{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.p13{
+    color:#081F32;
+}
+
+.p18{
+    color: #F8593B;
+    text-decoration: line-through;
+}
+
+.Strawberrybut2{
+    width: 70px;
+    height: 40px;
+    background-color: #2ECC71;
+    color: white;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+
+.Strawberryphoto{
+    position: relative;
+}
+
+
+.infologopos2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    position: absolute;
+    top: 110px;
+    left: 1060px;
+}
+
+.logos2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wheat4{
+    width: 20px;
+}
+
+.wheat5{
+    background-color: yellow;
+    pad: 2px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
